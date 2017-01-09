@@ -16,7 +16,7 @@ categories: node.js
 - 远程控制和实时的接口 API ( Nodejs 模块，允许和 PM2 进程管理器交互 )
 
 ### 常用命令
-```
+```bash
 $ npm install pm2 -g     # 命令行安装 pm2 
 $ pm2 start app.js -i 4  # 后台运行pm2，启动4个app.js 
                          # 也可以把'max' 参数传递给 start
@@ -37,7 +37,7 @@ $ pm2 delete all         # 杀死全部进程
 
 ```
 ### 运行进程的不同方式
-```
+```bash
 $ pm2 start app.js -i max    # 根据有效CPU数目启动最大进程数目
 $ pm2 start app.js -i 3      # 启动3个进程
 $ pm2 start app.js -x        #用fork模式启动 app.js 而不是使用 cluster
@@ -47,7 +47,7 @@ $ pm2 stop serverone       # 停止 serverone 进程
 $ pm2 start app.json        # 启动进程, 在 app.json里设置选项
 $ pm2 start app.js -i max -- -a 23                   #在--之后给 app.js 传递参数
 $ pm2 start app.js -i max -e err.log -o out.log  # 启动 并 生成一个配置文件
-你也可以执行用其他语言编写的app  ( fork 模式):
+#你也可以执行用其他语言编写的app  ( fork 模式):
 $ pm2 start my-bash-script.sh    -x --interpreter bash
 $ pm2 start my-python-script.py -x --interpreter python
 ```
