@@ -13,7 +13,7 @@ head:
 url:
     rss:
     daily_pic: "#"
-    logo:
+    logo: "#"
 
 
 # ---------------------------------------------------------------
@@ -26,7 +26,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "haha"
+    slogan: "遗忘的，记住了"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -106,7 +106,7 @@ sns_share:
 # Sidebar User Dropdown
 dropdown:
     Email Me:
-        link: "#"
+        link: "95353088@qq.com"
         icon: email
 
 # Sidebar Categories Switch
