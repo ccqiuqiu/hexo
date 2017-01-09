@@ -105,8 +105,8 @@ sns_share:
 
 # Sidebar User Dropdown
 dropdown:
-    Email Me:
-        link: "95353088@qq.com"
+    发邮件给我:
+        link: "mailto:95353088@qq.com"
         icon: email
 
 # Sidebar Categories Switch
