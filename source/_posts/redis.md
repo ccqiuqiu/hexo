@@ -5,6 +5,10 @@ tags: [redis,nosql]
 categories: 数据库
 ---
 
+### windows下载
+
+[下载地址](https://github.com/MSOpenTech/redis/releases)
+
 ### 启动命令
 > redis-server redis.windows.conf
 
