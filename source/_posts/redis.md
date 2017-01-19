@@ -5,6 +5,8 @@ tags: [redis,nosql]
 categories: 数据库
 ---
 
+redis常用操作
+
 ### windows下载
 
 [下载地址](https://github.com/MSOpenTech/redis/releases)
