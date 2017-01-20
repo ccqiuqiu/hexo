@@ -11,13 +11,13 @@ categories: node.js
 const axios = require('axios');
 var fs = require('fs');
 
- axios.get('https://a-ssl.duitang.com/uploads/item/201506/21/20150621002052_uMTRQ.jpeg', {
+ axios.get('http://ccqiuqiu.win/img/random/2.png', {
   responseType: 'arraybuffer'
  })
   .then(function(response) {
       console.log(response.status);
       console.log(response.headers);
-  	fs.writeFile('out.jpeg', response.data, function (err) {
+  	fs.writeFile('out.png', response.data, function (err) {
     	if (err) throw err;
     	console.log('保存成功');
  	});
