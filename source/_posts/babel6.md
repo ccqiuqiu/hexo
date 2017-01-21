@@ -5,7 +5,7 @@ tags: [babel]
 categories: node.js
 ---
 
-在node.js中使用babel6的方法
+在node.js中使用babel6的方法.
 
 1. 安装babel6 
 > npm install babel-core --save
@@ -21,13 +21,14 @@ categories: node.js
 	"presets": ["es2015"]
 	}
 	```
+
 	方法2  在pageage.json里面配置
 	```js
 	"babel": {
       "presets": ["es2015"]
   	}
   	```
-  	
+
 4. 新建 index.js
 ```js
 require('babel-core/register')
