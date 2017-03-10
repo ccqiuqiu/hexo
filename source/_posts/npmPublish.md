@@ -60,4 +60,12 @@ vim ~/.npmrc
 //写入配置文件
 registry =https://registry.npm.taobao.org
 ```
-[淘宝 npm 镜像](https://npm.taobao.org/)
+
+### 淘宝 npm 镜像
+```js
+//cnpm
+npm install -g cnpm --registry=https://registry.npm.taobao.org 
+
+npm config set registry https://registry.npm.taobao.org --global
+npm config set disturl https://npm.taobao.org/dist --global
+```
