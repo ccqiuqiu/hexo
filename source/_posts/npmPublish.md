@@ -31,6 +31,8 @@ npm publish
 >如果想忽略一些 .gitignore 中没有包括的东西，那么创建一个空的 .npmignore 可覆盖之.
 npm 社区版本号规则采用的是 [semver](http://semver.org/) (语义化版本)
 
+<!-- more -->
+
 ### 报错
 发布时报错：no_perms Private mode enable, only admin can publish this module
 

@@ -13,6 +13,8 @@ categories: node.js
 2. 安装插件
 > npm install babel-preset-es2015
 
+<!-- more -->
+
 3. 配置bedel6
 	
 	方法1 . 新建 .babelrc 文件

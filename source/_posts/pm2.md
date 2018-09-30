@@ -15,6 +15,8 @@ categories: node.js
 - 提供 HTTP API
 - 远程控制和实时的接口 API ( Nodejs 模块，允许和 PM2 进程管理器交互 )
 
+<!-- more -->
+
 ### 常用命令
 ```bash
 $ npm install pm2 -g     # 命令行安装 pm2 
